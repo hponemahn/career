@@ -18,3 +18,6 @@ Route::get('/', function () {
 });
 
 Route::view('/career', 'layouts/home');
+Route::view('/career/result', 'layouts/result');
+Route::view('/career/payment', 'layouts/payment');
+Route::view('/career/done', 'layouts/done');

@@ -222,35 +222,12 @@
                                     </label>
                                 </div>
                             </div>
-                            {{-- <div class="col-12">
-                                <div class="card bg-light">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-md-6 form-group">
-                                                <label for="data-plan-name">First Name<small class="text-danger">*</small></label>
-                                                <input type="text" id="data-plan-name" name="data-plan-name" value="" class="form-control required" placeholder="Enter your Full Name" />
-                                            </div>
-                                            <div class="col-md-6 form-group">
-                                                <label for="data-plan-contact">Contact Number<small class="text-danger">*</small></label>
-                                                <input type="text" name="data-plan-contact" id="data-plan-contact" class="form-control required" value="" placeholder="Enter your contact Number">
-                                            </div>
-                                            <div class="col-6 form-group">
-                                                <label for="data-plan-email">Email Address<small class="text-danger">*</small></label>
-                                                <input type="email" name="data-plan-email" id="data-plan-email" class="form-control required" value="" placeholder="user@company.com">
-                                            </div>
-                                            <div class="col-6 form-group">
-                                                <label for="data-plan-company">Company</label>
-                                                <input type="text" name="data-plan-company" id="data-plan-company" class="form-control" value="" placeholder="Company Name">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> --}}
+                            
                             <div class="col-12 hidden">
                                 <input type="text" id="data-plan-botcheck" name="data-plan-botcheck" value="" />
                             </div>
                             <div class="col-12 text-center">
-                                <button type="submit" name="data-plan-submit" class="btn btn-success btn-lg mt-3">Book Now</button>
+                                <button type="submit" name="data-plan-submit" class="btn btn-success btn-lg mt-3">အဖြေ ကြည့်ရှုရန်</button>
                             </div>
 
                             <input type="hidden" name="prefix" value="data-plan-">
