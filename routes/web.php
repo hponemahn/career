@@ -18,6 +18,6 @@ Route::get('/', function () {
 });
 
 Route::view('/career', 'layouts/home');
-Route::view('/career/result', 'layouts/result');
+Route::post('/career/result', 'App\Http\Controllers\CareerController@result');
 Route::view('/career/payment', 'layouts/payment');
 Route::view('/career/done', 'layouts/done');

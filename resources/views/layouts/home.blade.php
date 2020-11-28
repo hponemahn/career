@@ -21,15 +21,15 @@
 
                 <div class="row">
                     <div class="col-lg-12">
-                        <form id="data-plan" class="row" action="{{ url('/result') }}" method="post" enctype="multipart/form-data">
+                        <form id="data-plan" class="row" action="{{ url('/career/result') }}" method="post" enctype="multipart/form-data">
                             @csrf
                             <div class="form-process"></div>
-                            <div class="col-12 form-group">
+                            <div class="col-12 form-group checkbox-group required">
                                 <label>ကိုယ်ရည်ကိုယ်သွေးအမျိုးအစားများ - </label><br>
                                 <div class="row justify-content-center custom-padding-bottom">
                                     <label for="data-plan-e" class="col-sm-6 col-md-4">
                                         <div class="pricing-box noshadow border" style="background-color: #E2E8D8;">
-                                            <input type="checkbox" name="extrovert" class="required mt-3" id="data-plan-e" autocomplete="off" data-price="30" value="e">
+                                            <input type="checkbox" name="checkResult[]" class="required mt-3" id="data-plan-e" autocomplete="off" data-price="30" value="e">
                                             <div class="pricing-title nobg">
                                                 <h3 class="nott ls0">Extrovert</h3>
                                             </div>
@@ -51,7 +51,7 @@
 
                                     <label for="data-plan-i" class="col-sm-6 col-md-4">
                                         <div class="pricing-box noshadow border" style="background-color: #C2DFEC;">
-                                            <input type="checkbox" name="introvert" class="required mt-3" id="data-plan-i" autocomplete="off" data-price="30" value="i">
+                                            <input type="checkbox" name="checkResult[]" class="required mt-3" id="data-plan-i" autocomplete="off" data-price="30" value="i">
                                             <div class="pricing-title nobg">
                                                 <h3 class="nott ls0">Introvert</h3>
                                             </div>
@@ -75,7 +75,7 @@
 
                                     <label for="data-plan-s" class="col-sm-6 col-md-4">
                                         <div class="pricing-box noshadow border" style="background-color: #FADCE4">
-                                            <input type="checkbox" name="sensor" class="required mt-3" id="data-plan-s" autocomplete="off" data-price="30" value="s">
+                                            <input type="checkbox" name="checkResult[]" class="required mt-3" id="data-plan-s" autocomplete="off" data-price="30" value="s">
                                             <div class="pricing-title nobg">
                                                 <h3 class="nott ls0">Sensor</h3>
                                             </div>
@@ -101,7 +101,7 @@
                                 <div class="row justify-content-center custom-padding-bottom">
                                     <label for="data-plan-n" class="col-sm-6 col-md-4">
                                         <div class="pricing-box noshadow border" style="background-color: #E4E4E4">
-                                            <input type="checkbox" name="intuitive" class="required mt-3" id="data-plan-n" autocomplete="off" data-price="30" value="n">
+                                            <input type="checkbox" name="checkResult[]" class="required mt-3" id="data-plan-n" autocomplete="off" data-price="30" value="n">
                                             <div class="pricing-title nobg">
                                                 <h3 class="nott ls0">Intuitive</h3>
                                             </div>
@@ -125,7 +125,7 @@
 
                                     <label for="data-plan-t" class="col-sm-6 col-md-4">
                                         <div class="pricing-box noshadow border" style="background-color: #E5E3CE;">
-                                            <input type="checkbox" name="thinker" class="required mt-3" id="data-plan-t" autocomplete="off" data-price="30" value="t">
+                                            <input type="checkbox" name="checkResult[]" class="required mt-3" id="data-plan-t" autocomplete="off" data-price="30" value="t">
                                             <div class="pricing-title nobg">
                                                 <h3 class="nott ls0">Thinker</h3>
                                             </div>
@@ -149,7 +149,7 @@
 
                                     <label for="data-plan-f" class="col-sm-6 col-md-4">
                                         <div class="pricing-box noshadow border" style="background-color: #C9D6CF">
-                                            <input type="checkbox" name="feeler" class="required mt-3" id="data-plan-f" autocomplete="off" data-price="30" value="f">
+                                            <input type="checkbox" name="checkResult[]" class="required mt-3" id="data-plan-f" autocomplete="off" data-price="30" value="f">
                                             <div class="pricing-title nobg">
                                                 <h3 class="nott ls0">Feeler</h3>
                                             </div>
@@ -175,7 +175,7 @@
                                 <div class="row justify-content-center custom-padding-bottom">
                                     <label for="data-plan-j" class="col-sm-6 col-md-4">
                                         <div class="pricing-box noshadow border" style="background: #FFE1CF">
-                                            <input type="checkbox" name="judger" class="required mt-3" id="data-plan-j" autocomplete="off" data-price="30" value="j">
+                                            <input type="checkbox" name="checkResult[]" class="required mt-3" id="data-plan-j" autocomplete="off" data-price="30" value="j">
                                             <div class="pricing-title nobg">
                                                 <h3 class="nott ls0">Judger</h3>
                                             </div>
@@ -199,7 +199,7 @@
 
                                     <label for="data-plan-p" class="col-sm-6 col-md-4">
                                         <div class="pricing-box noshadow border" style="background: #DCE1F5">
-                                            <input type="checkbox" name="perceiver" class="required mt-3" id="data-plan-p" autocomplete="off" data-price="30" value="p">
+                                            <input type="checkbox" name="checkResult[]" class="required mt-3" id="data-plan-p" autocomplete="off" data-price="30" value="p">
                                             <div class="pricing-title nobg">
                                                 <h3 class="nott ls0">Perceiver</h3>
                                             </div>
@@ -226,8 +226,13 @@
                             <div class="col-12 hidden">
                                 <input type="text" id="data-plan-botcheck" name="data-plan-botcheck" value="" />
                             </div>
+                            
+                            <div class="col-12 show-error">
+                            
+                            </div>
+
                             <div class="col-12 text-center">
-                                <button type="submit" name="data-plan-submit" class="btn btn-success btn-lg mt-3">အဖြေ ကြည့်ရှုရန်</button>
+                                <button type="submit" name="data-plan-submit" class="btn btn-success btn-lg mt-3 submit">အဖြေ ကြည့်ရှုရန်</button>
                             </div>
 
                             <input type="hidden" name="prefix" value="data-plan-">
@@ -246,3 +251,31 @@
 
 </section>
 @endsection
+
+@push('javascript') 
+    <script>
+
+        jQuery(document).ready( function(){
+
+            jQuery('.pricing-box input:radio').on( 'change', function(){
+                $('.checked').removeClass('checked');
+                if($(this).is(':checked'))  {
+                    $(this).parents('label').addClass('checked');
+                }
+            });
+
+            $('.submit').click(function(){
+                if ($('div.checkbox-group.required :checkbox:checked').length < 4) {
+                    $('.show-error').html('<div class="alert alert-danger col-md-5 ccol-md-offset-5" role="alert" style="margin: 0 auto;">မိမိနှင့်သက်ဆိုင်သော ကိုယ်ရည်ကိုယ်သွေး (၄)ခု ရွေးချယ်ရန် လိုအပ်ပါသည်။ ရွေးချယ်အမှန်ခြစ်ရာတွင် (၄)ခု မပြည့်သေးပါ။ </div>');
+                } else if ($('div.checkbox-group.required :checkbox:checked').length > 4) {
+                    $('.show-error').html('<div class="alert alert-danger col-md-5 ccol-md-offset-5" role="alert" style="margin: 0 auto;">မိမိနှင့်သက်ဆိုင်သော ကိုယ်ရည်ကိုယ်သွေး (၄)ခု ရွေးချယ်ရန် လိုအပ်ပါသည်။ ရွေးချယ်အမှန်ခြစ်ရာတွင် (၄)ခု ထက်များနေပါသည်။ </div>');
+                } else if ($('div.checkbox-group.required :checkbox:checked').length == 4) {
+                    return true;
+                }
+
+                return false;
+            });
+        });
+
+    </script>
+@endpush

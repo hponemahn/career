@@ -28,6 +28,8 @@
 	<!-- Document Title
 	============================================= -->
 	<title>Career Advice | MyMar</title>
+	
+	<link rel="shortcut icon" href="{{ asset('images/favicon-32x32.png') }}" />
 
 	<style>
 		.form-group > label.error {
@@ -139,19 +141,7 @@
 	============================================= -->
 	<script src="{{ asset('asset/js/functions.js') }}"></script>
 
-	<script>
-		jQuery(document).ready( function(){
-
-			jQuery('.pricing-box input:radio').on( 'change', function(){
-				$('.checked').removeClass('checked');
-				if($(this).is(':checked'))  {
-				    $(this).parents('label').addClass('checked');
-				}
-			});
-
-		});
-
-	</script>
+	@stack('javascript')
 
 </body>
 </html>
