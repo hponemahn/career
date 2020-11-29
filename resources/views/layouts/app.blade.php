@@ -67,7 +67,6 @@
 			<div id="header-wrap">
 				<div class="container">
 					<a href="{{ url('/') }}"><img src="{{ asset('images/myMarLogo.png') }}" alt="MyMar Logo" height="100"></a>
-					
 				</div>
 		
 				{{-- <div>

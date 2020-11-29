@@ -37,7 +37,7 @@
                                                 <span class="price-unit">&dollar;</span class="t600">7<span class="price-tenure nott">/mo</span>
                                             </div> --}}
                                             <div class="pricing-features noborder">
-                                                <p class="nott ls0 t400">၎င်းကိုယ်ရည်ကိုယ်သွေးရှိသူသည် လူအများနှင့် ထိတွေ့ဆက်ဆံရသည်ကို နှစ်သက်သည်။ လုပ်ငန်းဆောင်တာများကို လျှင်မြန်စွာ လုပ်ဆောင်နိုင်သည်။ မတူညီသည်လုပ်ငန်းဆောင်တာများစွာ ဆောင်ရွက်ရသည်ကို နှစ်သက်သည်။ တစ်ချိန်တည်းတွင် လုပ်ငန်းများစွာ လုပ်ဆောင်ခြင်း၌ တော်တယ်။</p>
+                                                <p class="nott ls0 t400" style="padding: 5px;">သင်သည် လူအများနှင့် ထိတွေ့ဆက်ဆံရသည်ကို နှစ်သက်သည်။ လုပ်ငန်းဆောင်တာများကို လျှင်မြန်စွာ လုပ်ဆောင်နိုင်သည်။ မတူညီသည်လုပ်ငန်းဆောင်တာများစွာ ဆောင်ရွက်ရသည်ကို နှစ်သက်သည်။ တစ်ချိန်တည်းတွင် လုပ်ငန်းများစွာ လုပ်ဆောင်ခြင်း၌ တော်တယ်။</p>
                                                 {{-- <ul>
                                                     <li class="nott ls0 t400"><strong>1</strong> GB</li>
                                                     <li class="nott ls0 t400"><strong>Full</strong> Access</li>
@@ -59,16 +59,9 @@
                                                 <span class="price-unit">&dollar;</span class="t600">12<span class="price-tenure nott">/mo</span>
                                             </div> --}}
                                             <div class="pricing-features noborder">
-                                                <p class="nott ls0 t400">
-                                                    ၎င်းကိုယ်ရည်ကိုယ်သွေးရှိသူသည် အဖွဲ့ ငယ်အတွင်း (သို့) တစ်ယောက်တည်း လုပ်ဆောင်ရသည်ကို ကြိုက်သူဖြစ်သည်။ အေးဆေးတိတ်ဆိတ်စွာနေတတ်သူ ၊ တစ်ချိန်တွင် လုပ်ငန်းဆောင်တာ တစ်ခုကိုဘဲ အာရုံစိုက်တာ သဘောကျသူများဖြစ်သည်။
+                                                <p class="nott ls0 t400" style="padding: 5px;">
+                                                    သင်သည် အဖွဲ့ ငယ်အတွင်း (သို့) တစ်ယောက်တည်း လုပ်ဆောင်ရသည်ကို ကြိုက်သူဖြစ်သည်။ အေးဆေးတိတ်ဆိတ်စွာနေတတ်သူ ၊ တစ်ချိန်တွင် လုပ်ငန်းဆောင်တာ တစ်ခုကိုဘဲ အာရုံစိုက်ရတာ သဘောကျသူမျိုးဖြစ်သည်။
                                                 </p>
-                                                {{-- <ul>
-                                                    <li class="nott ls0 t400"><strong>5</strong> GB</li>
-                                                    <li class="nott ls0 t400"><strong>Full</strong> Access</li>
-                                                    <li class="nott ls0 t400"><i class="icon-code"></i> Source Files</li>
-                                                    <li class="nott ls0 t400"><strong>500</strong> User Accounts</li>
-                                                    <li class="nott ls0 t400"><strong>1 Year</strong> License</li>
-                                                </ul> --}}
                                             </div>
                                         </div>
                                     </label>
@@ -83,8 +76,8 @@
                                                 <span class="price-unit">&dollar;</span class="t600">15<span class="price-tenure nott">/mo</span>
                                             </div> --}}
                                             <div class="pricing-features noborder">
-                                                <p class="nott ls0 t400">
-                                                    ၎င်းကိုယ်ရည်ကိုယ်သွေးရှိသူများသည် လက်တွေ့ကျသော သူများဖြစ်သည်။ အချက်အလက်များနှင့် အသေးစိတ်များကို အာရုံထားကြသူများဖြစ်သည်။ ကိုယ်တွေ့အသိနှင့် အတွေ့အကြုံများ အပေါ်အခြေခံ၍ ပြသနာများကို ဖြေရှင်းတတ်ကြသည်။ 
+                                                <p class="nott ls0 t400" style="padding: 5px;">
+                                                    သင်သည် လက်တွေ့သမားဖြစ်သည်။ ကိုယ်တွေ့အသိနှင့် အတွေ့အကြုံများ အပေါ်အခြေခံ၍ ပြသနာများကို ဖြေရှင်းတတ်ကြသည်။ အချက်အလက်များနှင့် အသေးစိတ်များကို အာရုံထားသူဖြစ်သည်။ (ဥပမာ။      ။ မိတ္တူဆိုင်ဘယ်နားမှာရှိလဲလို့ တစ်ယောက်ယောက်က မေးလိုက်သောအခါ။ ဒီလမ်းအတိုင်းတည့်တည့်သွား၊ ပြီးရင်ဘယ်ဘက်ကွေ့၊ အိမ် (၅)လုံး ကျော်ပြီး တိုက်အပြာတွေ့ရင် ညာဘက်ကွေ့၊ နောက်ထပ် အိမ် (၂)လုံးကျော်ပြီးရင်၊ လမ်းရဲ့ဘယ်ဘက်မှာ မိတ္တူဆိုင်ရှိတယ်လို့ ပြောမည့်သူမျိုးဖြစ်သည်။)
                                                 </p>
                                                 {{-- <ul>
                                                     <li class="nott ls0 t400"><strong>10</strong> GB</li>
@@ -109,16 +102,9 @@
                                                 <span class="price-unit">&dollar;</span class="t600">7<span class="price-tenure nott">/mo</span>
                                             </div> --}}
                                             <div class="pricing-features noborder">
-                                                <p class="nott ls0 t400">
-                                                    ၎င်းကိုယ်ရည်ကိုယ်သွေးရှိသူသည် ဖြစ်တန်စွမ်းရှိသည့် အရာများအပေါ် အာရုံစိုက်သူများဖြစ်သည် ။ ရည်မှန်းချက်ကြီးမားသူ ၊ အလားလာကောင်းများကို လာဘ်မြင်သူ၊ တီထွင်ကြံဆတတ်သူ၊ ပြသနာအရေးကိစ္စများကို သူမတူသည့် နည်းလမ်းဖြင့် ဖြေရှင်းတတ်သူများဖြစ်သည်။
+                                                <p class="nott ls0 t400" style="padding: 5px;">
+                                                    သင်သည် ရည်မှန်းချက်ကြီးမားသူ ၊ အလားလာကောင်းများကို လာဘ်မြင်သူ၊ တီထွင်ကြံဆတတ်သူ၊ ပြသနာအရေးကိစ္စများကို သူမတူသည့် နည်းလမ်းဖြင့် ဖြေရှင်းတတ်သူဖြစ်သည်။ ဖြစ်တန်စွမ်းရှိသည့် အရာများအပေါ် အာရုံစိုက်သူဖြစ်သည်။ (ဥပမာ။      ။ မိတ္တူဆိုင်ဘယ်နားမှာရှိလဲလို့ တစ်ယောက်ယောက်က မေးလိုက်သောအခါ။ ဒီလမ်းအတိုင်းတည့်တည့်သွားပြီး၊ ဘယ်ဘက်ကွေ့လိုက်ရင် မိတ္တူဆိုင်ကိုရှာတွေ့ပါလိမ့်မယ်လို့ ပြောမည့်သူဖြစ်သည်။)
                                                 </p>
-                                                {{-- <ul>
-                                                    <li class="nott ls0 t400"><strong>1</strong> GB</li>
-                                                    <li class="nott ls0 t400"><strong>Full</strong> Access</li>
-                                                    <li class="nott ls0 t400"><i class="icon-code"></i> Source Files</li>
-                                                    <li class="nott ls0 t400"><strong>100</strong> User Accounts</li>
-                                                    <li class="nott ls0 t400"><strong>1 Year</strong> License</li>
-                                                </ul> --}}
                                             </div>
                                         </div>
                                     </label>
@@ -133,16 +119,9 @@
                                                 <span class="price-unit">&dollar;</span class="t600">12<span class="price-tenure nott">/mo</span>
                                             </div> --}}
                                             <div class="pricing-features noborder">
-                                                <p class="nott ls0 t400">
-                                                    ၎င်းကိုယ်ရည်ကိုယ်သွေးရှိသူသည် ကျိုးကြောင်းဆီလျှောမှုအပေါ် အခြေခံ၍ ဆုံးဖြတ်ချက်ချတတ်ကြသည်။ ကောင်းကျိုး ဆိုးပြစ်ကို အလေးထားတတ်ကြသည်။ ရိုးသားမှု၊ သမာသမတ်ကျမှုနှင့် မျှတမှုကိုတန်းဖိုးထားတတ်သူများဖြစ်သည်။ 
+                                                <p class="nott ls0 t400" style="padding: 5px;">
+                                                    သင်သည် ကျိုးကြောင်းဆီလျှောမှုအပေါ် အခြေခံ၍ မျှမျှတတ ဆုံးဖြတ်ချက်ချတတ်သူဖြစ်သည်။ ကောင်းကျိုး ဆိုးပြစ်ကို အလေးထားသည်။ ရိုးသားမှု၊ သမာသမတ်ကျမှုနှင့် မျှတမှုကိုတန်းဖိုးထားတတ်သူဖြစ်သည်။ 
                                                 </p>
-                                                {{-- <ul>
-                                                    <li class="nott ls0 t400"><strong>5</strong> GB</li>
-                                                    <li class="nott ls0 t400"><strong>Full</strong> Access</li>
-                                                    <li class="nott ls0 t400"><i class="icon-code"></i> Source Files</li>
-                                                    <li class="nott ls0 t400"><strong>500</strong> User Accounts</li>
-                                                    <li class="nott ls0 t400"><strong>1 Year</strong> License</li>
-                                                </ul> --}}
                                             </div>
                                         </div>
                                     </label>
@@ -157,8 +136,8 @@
                                                 <span class="price-unit">&dollar;</span class="t600">15<span class="price-tenure nott">/mo</span>
                                             </div> --}}
                                             <div class="pricing-features noborder">
-                                                <p class="nott ls0 t400">
-                                                    ၎င်းကိုယ်ရည်ကိုယ်သွေးရှိသူသည် ဆတ်ဆတ်ထိမခံသူ၊ အများနှင့် လုပ်ဆောင်တတ်သူ၊ ကိုယ်ပိုင်အမြင်ကို တန်ဖိုးထားသူ ဖြစ်သည်။ အခြားသူများကြောင့် ယင်းအပေါ်မည်သို့ သက်ရောက်မည်ကိုလည်း ခံစားတတ်သူဖြစ်သည်။
+                                                <p class="nott ls0 t400" style="padding: 5px;">
+                                                    သင်သည် ဆတ်ဆတ်ထိမခံသူ၊ အများနှင့် လုပ်ဆောင်တတ်သူ၊ ကိုယ်ပိုင်အမြင်ကို တန်ဖိုးထားသူ ဖြစ်သည်။ အခြားသူများကြောင့် ယင်းအပေါ်မည်သို့ သက်ရောက်မည်ကိုလည်း ခံစားတတ်သူဖြစ်သည်။ ဆုံးဖြတ်ချက်ချရာတွင် မေတ္တတရား၊ အကြင်နာတရားတို့ကို ဦးစားပေး၍ ချတတ်သည်။
                                                 </p>
                                                 {{-- <ul>
                                                     <li class="nott ls0 t400"><strong>10</strong> GB</li>
@@ -183,16 +162,9 @@
                                                 <span class="price-unit">&dollar;</span class="t600">12<span class="price-tenure nott">/mo</span>
                                             </div> --}}
                                             <div class="pricing-features noborder">
-                                                <p class="nott ls0 t400">
-                                                    ၎င်းကိုယ်ရည်ကိုယ်သွေးရှိသူသည် စည်းကမ်းတကျရှိသူများ၊ ကြိုတင်ပြင်ဆင်တတ်သူများဖြစ်ကြသည်။ ကြိုတင်စီစဉ်ထားသည့်အတိုင်း တသွေမတိမ်းလိုက်နာသူများ ဖြစ်ကြပြီး စည်းကမ်းလိုက်နာသူများဖြစ်ကြသည်။ 
+                                                <p class="nott ls0 t400" style="padding: 5px;">
+                                                    သင်သည် စည်းကမ်းတကျနေတတ်သူ၊ ကြိုတင်ပြင်ဆင်တတ်သူ ဖြစ်သည်။ ကြိုတင်စီစဉ်ထားသည့်အတိုင်း တသွေမတိမ်းလိုက်နာသူ၊ စည်းကမ်းလိုက်နာသူလည်းဖြစ်သည်။ တာ၀န်ယူမှု၊ တာ၀န်ခံမှုရှိပြီး၊ ပြောထားသော သက်မှတ်နေ့တွင် ပြီးစီးအောင် ကြိုစားသူဖြစ်သည်။ အပေါ်စီးမှ ဆက်ဆံတတ်ပြီး၊ စာအုပ်ကြီးသမားလည်းဖြစ်သည်။ 
                                                 </p>
-                                                {{-- <ul>
-                                                    <li class="nott ls0 t400"><strong>5</strong> GB</li>
-                                                    <li class="nott ls0 t400"><strong>Full</strong> Access</li>
-                                                    <li class="nott ls0 t400"><i class="icon-code"></i> Source Files</li>
-                                                    <li class="nott ls0 t400"><strong>500</strong> User Accounts</li>
-                                                    <li class="nott ls0 t400"><strong>1 Year</strong> License</li>
-                                                </ul> --}}
                                             </div>
                                         </div>
                                     </label>
@@ -207,16 +179,9 @@
                                                 <span class="price-unit">&dollar;</span class="t600">15<span class="price-tenure nott">/mo</span>
                                             </div> --}}
                                             <div class="pricing-features noborder">
-                                                <p class="nott ls0 t400">
-                                                    ၎င်းကိုယ်ရည်ကိုယ်သွေးရှိသူသည် အတွေးအမြင်များကို ပွင့်ပွင့်လင်းလင်း ဖော်ပြတတ်သူ ၊ စဉ်ဆက်မပြတ် အလုပ်များ ဆောင်ရွက်နိုင်သူ ၊ စီမံကိန်းချရာတွင် လိုက်လျောညီထွေဖြစ်အောင် ပြောင်းလွယ် ပြင်လွယ်သူများ ဖြစ်သည်။ 
+                                                <p class="nott ls0 t400" style="padding: 5px;">
+                                                    သင်သည် အတွေးအမြင်များကို ပွင့်ပွင့်လင်းလင်း ဖော်ပြတတ်သူ ၊ စဉ်ဆက်မပြတ် အလုပ်များ ဆောင်ရွက်နိုင်သူ ၊ လိုက်လျောညီထွေဖြစ်အောင် ပြောင်းလွယ် ပြင်လွယ်သူ ဖြစ်သည်။ လုပ်စရာရှိတာကို နောက်မှလုပ်တတ်ပြီး၊ ပျော်စရာရှိရင် အခုပျော်လိုက်မည့်သူ ဖြစ်သည်။ အခွင့်အရေးအသစ်များကို အမြဲရှာဖွေနေတတ်ပြီး၊ မိမိရဲ့ရွေးချယ်မှုကိုလည်း တံခါးဖွင့်ထားသူဖြစ်သည်။ 
                                                 </p>
-                                                {{-- <ul>
-                                                    <li class="nott ls0 t400"><strong>10</strong> GB</li>
-                                                    <li class="nott ls0 t400"><strong>Full</strong> Access</li>
-                                                    <li class="nott ls0 t400"><i class="icon-code"></i> Source Files</li>
-                                                    <li class="nott ls0 t400"><strong>1000</strong> User Accounts</li>
-                                                    <li class="nott ls0 t400"><strong>Lifetime</strong> License</li>
-                                                </ul> --}}
                                             </div>
                                         </div>
                                     </label>
