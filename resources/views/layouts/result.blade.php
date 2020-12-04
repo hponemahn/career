@@ -9,7 +9,7 @@
             <div class="col_one_third nobottommargin">
 
                 <div class="well well-lg nobottommargin">
-                        <h3>သင်၏ ကိုယ်ရည်ကိုယ်သွေး</h3>
+                        <h3 class="unicode">သင်၏ ကိုယ်ရည်ကိုယ်သွေး</h3>
 
                         <p>သင်သည် လက်တွေ့ကျကျ ဆုံးဖြတ်ချက်ချသူ ဖြစ်သည်။ ဦးဆောင်ဦးရွက် လုပ်နိုင်သူလည်း ဖြစ်သည်။</p>
                 </div>
@@ -19,14 +19,14 @@
             <div class="col_two_third col_last nobottommargin">
 
 
-                <h3>သင်၏ ကိုယ်ရည်ကိုယ်သွေးနှင့် ကိုက်ညီသော အလုပ် (၅) မျိုး။</h3>
+                <h3 class="unicode">သင်၏ ကိုယ်ရည်ကိုယ်သွေးနှင့် ကိုက်ညီသော အလုပ် (၅) မျိုး။</h3>
 
                 <div class="style-msg successmsg">
                     <div class="sb-msg">
                         <i class="icon-number"></i>
                         <strong>1</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font style="font-size: 18px;">
                             @php
-                            $career;
+                            $career = "";
                             if ($type == "estj") {
                                 $career = "ရှေ့နေ";
                             } else if ($type == "istj") {

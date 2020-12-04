@@ -32,11 +32,8 @@
 	<link rel="shortcut icon" href="{{ asset('images/favicon-32x32.png') }}" />
 
 	{{-- myanmar web font --}}
-	<link href=’http://mywebfont.appspot.com/css?font=yunghkio’ rel=’stylesheet’ type=’text/css’>
-	<link href=’http://mywebfont.appspot.com/css?font=myanmar3′ rel=’stylesheet’ type=’text/css’>
-	<link href=’http://mywebfont.appspot.com/css?font=padauk’ rel=’stylesheet’ type=’text/css’>
-	<link href=’http://mywebfont.appspot.com/css?font=parabaik’ rel=’stylesheet’ type=’text/css’>
-	<link href=’http://mywebfont.appspot.com/css?font=zawgyi’ rel=’stylesheet’ type=’text/css’>
+	<link rel="stylesheet" href='https://mmwebfonts.comquas.com/fonts/?font=myanmar3' />
+	<link rel="stylesheet" href='https://mmwebfonts.comquas.com/fonts/?font=zawgyi' />
 
 	<style>
 		.form-group > label.error {
@@ -58,24 +55,16 @@
         }
 
 		/* myanmar web font */
-		.yunghkio {
-			font-family:"Masterpiece Uni Sans",Yunghkio;
-		}
-		.myanmar3 {
-			font-family:"Masterpiece Uni Sans",Myanmar3;
-		}
-		.padauk {
-			font-family:"Masterpiece Uni Sans",Padauk;
-		}
-		.zawgyi {
+		.zawgyi{
 			font-family:Zawgyi-One;
-		}
-		.parabaik {
-			font-family:"Masterpiece Uni Sans",Parabaik;
 		}
 
-		body {
-			font-family:Zawgyi-One;
+		.unicode{
+			font-family:Myanmar3,Yunghkio,'Masterpiece Uni Sans';
+		}
+
+		* {
+			font-family:Myanmar3,Yunghkio,'Masterpiece Uni Sans';
 		}
 
 	</style>

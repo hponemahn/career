@@ -9,7 +9,7 @@
             <div class="container clearfix">
                 <div class="emphasis-title vertical-middle center" style="position: absolute; top: 50%; width: 100%; padding-top: 0px; padding-bottom: 0px; margin-top: -63px; opacity: 1.30478;">
                     <p>MyMar Team မှ သင့် Viber (သို့) Email သို့ မကြာမီ ပို့ပေးသွားပါမည်။</p>
-                    <h1 data-animate="fadeInUp">ဘ၀ခရီးလမ်း သာယာဖြောင့်ဖြူးပါစေ</strong></h1>
+                    <h1 class="unicode" data-animate="fadeInUp" style="letter-spacing: 0px;">ဘ၀ခရီးလမ်း သာယာဖြောင့်ဖြူးပါစေ</strong></h1>
                     <br>
                     <p>ဆက်သွယ်မေးမြန်းရန်ရှိပါက - 09407709504</p>
                 </div>

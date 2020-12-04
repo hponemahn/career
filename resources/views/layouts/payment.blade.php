@@ -16,22 +16,22 @@
 
                 <div class="well well-lg nobottommargin">
                     
-                        <h3>အချက်အလက်ဖြည့်သွင်းပါ</h3>
+                        <h3 class="unicode">အချက်အလက်ဖြည့်သွင်းပါ</h3>
 
                         <p>ငွေပေးချေပြီးသည်နှင့် ကျန်ရှိနေသော အလုပ်အကိုင်(၄)မျိုးကို viber (သို့) email သို့ပို့ပေးရန် သင်၏ အချက်အလက်ဖြည့်သွင်းပေးပါ။</p>
 
                         <div class="col_full">
-                            <label for="login-form-username">အမည်:</label>
+                            <label class="unicode" style="letter-spacing: 0px;font-size: 15px;" for="login-form-username">အမည်:</label>
                             <input type="text" id="login-form-username" name="name" value="" class="form-control">
                         </div>
 
                         <div class="col_full">
-                            <label for="login-form-phone">ဖုန်းနံပါတ်:</label>
+                            <label class="unicode" style="letter-spacing: 0px;font-size: 15px;" for="login-form-phone">ဖုန်းနံပါတ်:</label>
                             <input type="number" onkeydown="return event.keyCode !== 69" id="login-form-phone" name="phone" value="" class="form-control">
                         </div>
 
                         <div class="col_full">
-                            <label for="login-form-email">Email (ရှိပါက):</label>
+                            <label class="unicode" style="letter-spacing: 0px;font-size: 15px;" for="login-form-email">Email (ရှိပါက):</label>
                             <input type="email" id="login-form-email" name="email" value="" class="form-control">
                         </div>
                 </div>
@@ -40,7 +40,7 @@
 
             <div class="col_two_third col_last nobottommargin">
 
-                <h3>ငွေပေးချေရန် နည်းလမ်း</h3>
+                <h3 class="unicode">ငွေပေးချေရန် နည်းလမ်း</h3>
 
                 <div class="row">
                     <div class="col-lg-12">
@@ -53,7 +53,7 @@
                                         <div class="pricing-box noshadow border" style="background-color: #E2E8D8;">
                                             <input type="radio" name="payment" class="required mt-3" id="data-plan-e" autocomplete="off" data-price="30" value="k">
                                             <div class="pricing-title nobg">
-                                                <h3 class="nott ls0">KBZ Pay</h3>
+                                                <h3 class="nott ls0 unicode">KBZ Pay</h3>
                                             </div>
                                             <div class="pricing-price">
                                                 {{-- <span class="price-unit">&dollar;</span class="t600">7<span class="price-tenure nott">/mo</span> --}}
@@ -66,7 +66,7 @@
                                         <div class="pricing-box noshadow border" style="background-color: #C2DFEC;">
                                             <input type="radio" name="payment" class="required mt-3" id="data-plan-i" autocomplete="off" data-price="30" value="a">
                                             <div class="pricing-title nobg">
-                                                <h5 class="nott ls0">ဘဏ်အကောင့်/ATM</h5>
+                                                <h5 class="nott ls0 unicode">ဘဏ်အကောင့်/ATM</h5>
                                             </div>
                                             <div class="pricing-price">
                                                 <img src="{{ asset('images/atm.svg') }}" alt="ATM" width="70" height="70">
@@ -114,7 +114,7 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="exampleFormControlFile1">ငွေပေးချေထားသော ပြေစာ (သို့) screenshot ကို upload ပြုလုပ်ပါ</label>
+                        <label class="unicode" style="letter-spacing: 0px;font-size: 14px;" for="exampleFormControlFile1">ငွေပေးချေထားသော ပြေစာ (သို့) screenshot ကို upload ပြုလုပ်ပါ</label>
                         <input type="file" name="file" class="form-control-file file"  accept="image/*,.pdf" id="exampleFormControlFile1">
                     </div>
 
@@ -158,7 +158,7 @@
                 $('.payment-method').html('<strong>ငွေလွှဲပေးရမည့် account နံပါတ်:  0060201010044969</strong>');
             } else if ($(this).val() == "w" || $(this).val() == "t") {
                 $('.payment-method').html('<strong>ငွေလွှဲပေးရမည့် ဖုန်းနံပါတ်:  09407709504</strong>');
-                $('.secret-input').html('<div class="col-6" style="margin-left: -14px;"><label for="exampleFormControlFile1">သက်မှတ်ချင်သော လျှို့၀က်နံပါတ်ကို ထည့်သွင်းပေးပါ</label><input type="number" onkeydown="return event.keyCode !== 69" name="secret" required class="form-control-file" id="exampleFormControlFile1"><br></div>');
+                $('.secret-input').html('<div class="col-12 col-md-6" style="margin-left: -14px;"><label for="exampleFormControlFile1" class="unicode" style="letter-spacing: 0px;">သက်မှတ်ချင်သော လျှို့၀က်နံပါတ်ကို ထည့်သွင်းပေးပါ</label><input type="number" onkeydown="return event.keyCode !== 69" name="secret" required class="form-control-file secret" id="exampleFormControlFile1"><br></div>');
             } else {
                 $('.payment-method').html('<strong>ငွေလွှဲပေးရမည့် ဖုန်းနံပါတ်:  09777425147</strong>');
             }
