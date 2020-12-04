@@ -31,6 +31,13 @@
 	
 	<link rel="shortcut icon" href="{{ asset('images/favicon-32x32.png') }}" />
 
+	{{-- myanmar web font --}}
+	<link href=’http://mywebfont.appspot.com/css?font=yunghkio’ rel=’stylesheet’ type=’text/css’>
+	<link href=’http://mywebfont.appspot.com/css?font=myanmar3′ rel=’stylesheet’ type=’text/css’>
+	<link href=’http://mywebfont.appspot.com/css?font=padauk’ rel=’stylesheet’ type=’text/css’>
+	<link href=’http://mywebfont.appspot.com/css?font=parabaik’ rel=’stylesheet’ type=’text/css’>
+	<link href=’http://mywebfont.appspot.com/css?font=zawgyi’ rel=’stylesheet’ type=’text/css’>
+
 	<style>
 		.form-group > label.error {
 			display: block !important;
@@ -49,6 +56,27 @@
         .custom-padding-bottom > label {
             padding-bottom: 15px;
         }
+
+		/* myanmar web font */
+		.yunghkio {
+			font-family:"Masterpiece Uni Sans",Yunghkio;
+		}
+		.myanmar3 {
+			font-family:"Masterpiece Uni Sans",Myanmar3;
+		}
+		.padauk {
+			font-family:"Masterpiece Uni Sans",Padauk;
+		}
+		.zawgyi {
+			font-family:Zawgyi-One;
+		}
+		.parabaik {
+			font-family:"Masterpiece Uni Sans",Parabaik;
+		}
+
+		body {
+			font-family:Zawgyi-One;
+		}
 
 	</style>
 
@@ -95,31 +123,22 @@
 
 		<!-- Footer
 		============================================= -->
-		<footer id="footer" class="noborder clearfix">
-
-			<!-- Copyrights
-			============================================= -->
-			<div id="copyrights" style="background: #F5F5F5">
-
-				<div class="container clearfix">
-
-					<div class="col_full center nobottommargin topmargin-sm">
-						© MyMar. 2020. All Rights Reserved.<br><br>
-						<a href="http://facebook.com/mymar" target="_blank" class="social-icon inline-block si-small si-borderless si-rounded si-facebook">
-							<i class="icon-facebook"></i>
-							<i class="icon-facebook"></i>
-						</a>
-						<a href="tel:09777425147" target="_blank" class="social-icon inline-block si-small si-borderless si-rounded si-twitter">
-							<i class="icon-phone"></i>
-							<i class="icon-phone"></i>
-						</a>
-					</div>
-
-				</div>
-
-			</div><!-- #copyrights end -->
-
-		</footer>
+		<footer class="py-4 flex-shrink-0" style="background: #F5F5F5; padding-bottom: 0 !important;">
+			<div class="container text-center">
+			  {{-- <a href="https://bootstrapious.com/snippets" class="text-muted">Bootstrap snippet by Bootstrapious</a> --}}
+			  © MyMar. 2020. All Rights Reserved.
+			  <br>
+			  <br>
+				<a href="http://facebook.com/mymar" target="_blank" class="social-icon inline-block si-small si-borderless si-rounded si-facebook">
+					<i class="icon-facebook"></i>
+					<i class="icon-facebook"></i>
+				</a>
+				<a href="tel:09407709504" target="_blank" class="social-icon inline-block si-small si-borderless si-rounded si-twitter">
+					<i class="icon-phone"></i>
+					<i class="icon-phone"></i>
+				</a>
+			</div>
+		  </footer>
 		<!-- #footer end -->
 
 	</div><!-- #wrapper end -->

@@ -19,5 +19,5 @@ Route::get('/', function () {
 
 Route::view('/career', 'layouts/home');
 Route::post('/career/result', 'App\Http\Controllers\CareerController@result');
-Route::view('/career/payment', 'layouts/payment');
-Route::view('/career/done', 'layouts/done');
+Route::post('/career/payment', 'App\Http\Controllers\CareerController@payment');
+Route::post('/career/done', 'App\Http\Controllers\CareerController@done');
