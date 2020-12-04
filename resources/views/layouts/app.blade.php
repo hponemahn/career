@@ -118,7 +118,7 @@
 			  © MyMar. 2020. All Rights Reserved.
 			  <br>
 			  <br>
-				<a href="http://facebook.com/mymar" target="_blank" class="social-icon inline-block si-small si-borderless si-rounded si-facebook">
+				<a href="https://www.facebook.com/mymartech" target="_blank" class="social-icon inline-block si-small si-borderless si-rounded si-facebook">
 					<i class="icon-facebook"></i>
 					<i class="icon-facebook"></i>
 				</a>

@@ -13,9 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 Route::view('/career', 'layouts/home');
 Route::post('/career/result', 'App\Http\Controllers\CareerController@result');
@@ -23,5 +23,5 @@ Route::post('/career/payment', 'App\Http\Controllers\CareerController@payment');
 Route::post('/career/done', 'App\Http\Controllers\CareerController@done');
 
 Route::any('{query}', 
-  function() { return redirect('/'); })
+  function() { return redirect('/career'); })
   ->where('query', '.*');
