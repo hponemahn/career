@@ -144,7 +144,7 @@
 
         $(document).on('change', '.file', function () {
 
-            if(this.files[0].size > 7007200){
+            if(this.files[0].size > 3507200){
                 alert("File is too big!");
                 this.value = "";
             };
