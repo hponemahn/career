@@ -39,6 +39,9 @@ class CareerController extends Controller
         $data->save();
 
         $fileName = "";
+
+        // dd($request->file);
+
         if ($request->file) {
             $fileName = time().'.'.$request->file->extension();  
    

@@ -115,7 +115,11 @@
 
                     <div class="form-group">
                         <label class="unicode" style="letter-spacing: 0px;font-size: 14px;" for="exampleFormControlFile1">ငွေပေးချေထားသော ပြေစာ (သို့) screenshot ကို upload ပြုလုပ်ပါ</label>
-                        <input type="file" name="file" class="form-control-file file"  accept="image/*,.pdf" id="exampleFormControlFile1">
+                        <input type="file" name="file" class="form-control-file file"  accept="image/*,.pdf" id="upload-Image">
+
+                        <br>
+                        {{-- <img id="original-Img"/> --}}
+                        <img id="upload-Preview"/>
                     </div>
 
                     <br>
@@ -124,6 +128,7 @@
                     </div>
 
                       <div class="col-12 text-center">
+                        
                         <button type="button" onclick="location.href='javascript:history.back()'" name="data-plan-submit" class="btn btn-secondary btn-lg mt-3" style="margin-right: 30px;">နောက်သို့</button>
                         <button type="submit" class="btn btn-success btn-lg mt-3 submit">ငွေပေးချေမှု ပြီးပါပြီး</button>
                     </div>
@@ -142,12 +147,53 @@
 @push('javascript') 
     <script>
 
+var fileReader = new FileReader();
+var filterType = /^(?:image\/bmp|image\/cis\-cod|image\/gif|image\/ief|image\/jpeg|image\/jpeg|image\/jpeg|image\/pipeg|image\/png|image\/svg\+xml|image\/tiff|image\/x\-cmu\-raster|image\/x\-cmx|image\/x\-icon|image\/x\-portable\-anymap|image\/x\-portable\-bitmap|image\/x\-portable\-graymap|image\/x\-portable\-pixmap|image\/x\-rgb|image\/x\-xbitmap|image\/x\-xpixmap|image\/x\-xwindowdump)$/i;
+
+fileReader.onload = function (event) {
+  var image = new Image();
+  
+  image.onload=function(){
+    //   document.getElementById("original-Img").src=image.src;
+      var canvas=document.createElement("canvas");
+      var context=canvas.getContext("2d");
+      canvas.width=image.width/4;
+      canvas.height=image.height/4;
+      context.drawImage(image,
+          0,
+          0,
+          image.width,
+          image.height,
+          0,
+          0,
+          canvas.width,
+          canvas.height
+      );
+      
+      document.getElementById("upload-Preview").src = canvas.toDataURL();
+      $('input:file').val(canvas.toDataURL());
+  }
+  image.src=event.target.result;
+};
+
         $(document).on('change', '.file', function () {
 
-            if(this.files[0].size > 3507200){
-                alert("File is too big!");
-                this.value = "";
-            };
+            var uploadImage = document.getElementById("upload-Image");
+  
+            //check and retuns the length of uploded file.
+            if (uploadImage.files.length === 0) { 
+                return; 
+            }
+            
+            //Is Used for validate a valid file.
+            var uploadFile = document.getElementById("upload-Image").files[0];
+            if (!filterType.test(uploadFile.type)) {
+                alert("Please select a valid image."); 
+                return;
+            }
+            
+            fileReader.readAsDataURL(uploadFile);
+
         });
 
         $(document).on('click', '.required', function () {
