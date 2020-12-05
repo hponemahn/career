@@ -66,10 +66,10 @@
                                         <div class="pricing-box noshadow border" style="background-color: #C2DFEC;">
                                             <input type="radio" name="payment" class="required mt-3" id="data-plan-i" autocomplete="off" data-price="30" value="a">
                                             <div class="pricing-title nobg">
-                                                <h5 class="nott ls0 unicode">ဘဏ်အကောင့်/ATM</h5>
+                                                <h5 class="nott ls0 unicode">ဘဏ်အကောင့်/Mobile Banking/iBanking</h5>
                                             </div>
                                             <div class="pricing-price">
-                                                <img src="{{ asset('images/atm.svg') }}" alt="ATM" width="70" height="70">
+                                                <img src="{{ asset('images/mb.jpg') }}" alt="ATM" width="70" height="70">
                                             </div>
                                         </div>
                                     </label>
@@ -155,7 +155,7 @@
             $('.secret-input').html('');
 
             if ($(this).val() == "a") {
-                $('.payment-method').html('<strong>ငွေလွှဲပေးရမည့် account နံပါတ်:  0060201010044969</strong>');
+                $('.payment-method').html('<strong>KBZ account နံပါတ်:  30130106901176701</strong><br><strong>AYA account နံပါတ်:  0060201010044969</strong><br><strong>CB account နံပါတ်:  0086-6005-0025-8954</strong>');
             } else if ($(this).val() == "w" || $(this).val() == "t") {
                 $('.payment-method').html('<strong>ငွေလွှဲပေးရမည့် ဖုန်းနံပါတ်:  09407709504</strong>');
                 $('.secret-input').html('<div class="col-12 col-md-6" style="margin-left: -14px;"><label for="exampleFormControlFile1" class="unicode" style="letter-spacing: 0px;">သက်မှတ်ချင်သော လျှို့၀က်နံပါတ်ကို ထည့်သွင်းပေးပါ</label><input type="number" onkeydown="return event.keyCode !== 69" name="secret" required class="form-control-file secret" id="exampleFormControlFile1"><br></div>');
