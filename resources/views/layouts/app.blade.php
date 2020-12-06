@@ -2,6 +2,16 @@
 <html dir="ltr" lang="en-US">
 <head>
 
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-K0T5GZF2C9"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-K0T5GZF2C9');
+	</script>
+
 	<!-- Primary Meta Tags -->
 	<title>မိမိရဲ့ ကိုယ်ရည်ကိုယ်သွေးနှင့်ကိုက်ညီသော အကောင်းဆုံး အလုပ် ၅ မျိုး</title>
 	<meta name="title" content="မိမိရဲ့ ကိုယ်ရည်ကိုယ်သွေးနှင့်ကိုက်ညီသော အကောင်းဆုံး အလုပ် ၅ မျိုး">
