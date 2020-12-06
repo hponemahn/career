@@ -49,12 +49,12 @@ class CareerController extends Controller
         
             $destinationPath = public_path('/thumbnail');
             $img = Image::make($image->getRealPath());
-            $img->resize(100, 100, function ($constraint) {
+            $img->resize(500, 500, function ($constraint) {
                 $constraint->aspectRatio();
             })->save($destinationPath.'/'.$input['imagename']);
     
             $destinationPath = public_path('/images');
-            $image->move($destinationPath, $input['imagename']);
+            // $image->move($destinationPath, $input['imagename']);
 
             $fileName = $input['imagename'];
 
