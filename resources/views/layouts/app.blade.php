@@ -2,8 +2,29 @@
 <html dir="ltr" lang="en-US">
 <head>
 
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="SemiColonWeb" />
+	<!-- Primary Meta Tags -->
+	<title>မိမိရဲ့ ကိုယ်ရည်ကိုယ်သွေးနှင့်ကိုက်ညီသော အကောင်းဆုံး အလုပ် ၅ မျိုး</title>
+	<meta name="title" content="မိမိရဲ့ ကိုယ်ရည်ကိုယ်သွေးနှင့်ကိုက်ညီသော အကောင်းဆုံး အလုပ် ၅ မျိုး">
+	<meta name="description" content="မိမိရဲ့ ပင်ကိုစရိုက်၊ ပင်ကို အရည်အသွေးအပေါ်မူတည်ပြီး မိမိနဲ့ သင့်တော်ကိုက်ညီမယ့် အလုပ်အကိုင် (၅) မျိုးကို အကြံပြု ဖော်ပြပေးသွားမှာ ဖြစ်ပါတယ်">
+
+	<meta name="keywords" content="mymar, mymar digital, mymar tech, career advice, အလုပ်အကိုင်, ကိုယ်ရည်ကိုယ်သွေးနှင့်ကိုက်ညီသောအကောင်းဆုံးအလုပ်(၅)မျိုး, ပင်ကိုစရိုက်၊">
+	<meta name="robots" content="index, follow">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="author" content="Phone Mhan">
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://mymar.digital/career">
+	<meta property="og:title" content="မိမိရဲ့ ကိုယ်ရည်ကိုယ်သွေးနှင့်ကိုက်ညီသော အကောင်းဆုံး အလုပ် ၅ မျိုး">
+	<meta property="og:description" content="မိမိရဲ့ ပင်ကိုစရိုက်၊ ပင်ကို အရည်အသွေးအပေါ်မူတည်ပြီး မိမိနဲ့ သင့်တော်ကိုက်ညီမယ့် အလုပ်အကိုင် (၅) မျိုးကို အကြံပြု ဖော်ပြပေးသွားမှာ ဖြစ်ပါတယ်">
+	<meta property="og:image" content="https://mymar.digital/images/mymar_career_meta_preview.png">
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="https://mymar.digital/career">
+	<meta property="twitter:title" content="မိမိရဲ့ ကိုယ်ရည်ကိုယ်သွေးနှင့်ကိုက်ညီသော အကောင်းဆုံး အလုပ် ၅ မျိုး">
+	<meta property="twitter:description" content="မိမိရဲ့ ပင်ကိုစရိုက်၊ ပင်ကို အရည်အသွေးအပေါ်မူတည်ပြီး မိမိနဲ့ သင့်တော်ကိုက်ညီမယ့် အလုပ်အကိုင် (၅) မျိုးကို အကြံပြု ဖော်ပြပေးသွားမှာ ဖြစ်ပါတယ်">
+	<meta property="twitter:image" content="https://mymar.digital/images/mymar_career_meta_preview.png">
 
 	<!-- Stylesheets
 	============================================= -->
@@ -25,9 +46,6 @@
 	<link rel="stylesheet" href="{{ asset('asset/css/photographer.css') }}" type="text/css" />
 	<link rel="stylesheet" href="{{ asset('asset/css/custom.css') }}" type="text/css" />
 
-	<!-- Document Title
-	============================================= -->
-	<title>Career Advice | MyMar</title>
 	
 	<link rel="shortcut icon" href="{{ asset('images/favicon-32x32.png') }}" />
 
