@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\User;
+use Illuminate\Support\Facades\Storage;
+use Intervention\Image\ImageManagerStatic as Image;
 
 class CareerController extends Controller
 {
@@ -40,12 +42,23 @@ class CareerController extends Controller
 
         $fileName = "";
 
-        // dd($request->file);
-
         if ($request->file) {
-            $fileName = time().'.'.$request->file->extension();  
-   
-            $request->file->move(public_path('uploads'), $fileName);
+
+            $image = $request->file('file');
+            $input['imagename'] = time().'.'.$image->getClientOriginalExtension();
+        
+            $destinationPath = public_path('/thumbnail');
+            $img = Image::make($image->getRealPath());
+            $img->resize(100, 100, function ($constraint) {
+                $constraint->aspectRatio();
+            })->save($destinationPath.'/'.$input['imagename']);
+    
+            $destinationPath = public_path('/images');
+            $image->move($destinationPath, $input['imagename']);
+
+            $fileName = $input['imagename'];
+
+            
         }
 
         \DB::table('results')->insert(
