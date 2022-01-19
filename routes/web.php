@@ -17,7 +17,10 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::view('/career', 'layouts/home');
+Route::view('/', 'layouts/home');
+
+// career
+Route::view('/career', 'career/home');
 Route::post('/career/result', 'App\Http\Controllers\CareerController@result');
 Route::post('/career/payment', 'App\Http\Controllers\CareerController@payment');
 Route::post('/career/done', 'App\Http\Controllers\CareerController@done');

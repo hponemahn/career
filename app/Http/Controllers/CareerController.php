@@ -13,7 +13,7 @@ class CareerController extends Controller
     {
         $type = $request->typeOne . "" . $request->typeTwo . "" . $request->typeThree . "" . $request->typeFour;
 
-        return view('layouts/result', compact('type'));
+        return view('career/result', compact('type'));
     }
     
     public function payment (Request $request)
@@ -29,7 +29,7 @@ class CareerController extends Controller
             $paymentID = 1;
         }
 
-        return view('layouts/payment', compact('type', 'paymentID'));
+        return view('career/payment', compact('type', 'paymentID'));
     }
 
     public function done (Request $request)
@@ -65,6 +65,6 @@ class CareerController extends Controller
             ['user_id' => $data->id, 'selected_type' => $request->type, 'payment' => $request->payment, 'secret' => isset($request->secret) ? $request->secret : "", 'is_done' => 0, 'receipt' => $fileName]
         );
 
-        return view('layouts/done');
+        return view('career/done');
     }
 }

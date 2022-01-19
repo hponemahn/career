@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('career.app')
 @section('content')
 <section id="content" style="margin-bottom: 0px;">
 

@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('career.app')
 @section('content')
 <section id="slider" class="slider-element slider-parallax full-screen with-header force-full-screen clearfix slider-parallax-visible" style="height: 339px;">
 

@@ -18,7 +18,7 @@
     </script>
 
     <!-- Facebook Pixel Code -->
-    <script>
+    {{-- <script>
         ! function (f, b, e, v, n, t, s) {
             if (f.fbq) return;
             n = f.fbq = function () {
@@ -40,7 +40,7 @@
         fbq('init', '859579081470632');
         fbq('track', 'PageView');
 
-    </script>
+    </script> --}}
     <noscript><img height="1" width="1" style="display:none"
             src="https://www.facebook.com/tr?id=859579081470632&ev=PageView&noscript=1" /></noscript>
     <!-- End Facebook Pixel Code -->
