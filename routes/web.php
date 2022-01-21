@@ -17,7 +17,9 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::view('/', 'layouts/home');
+// MyMar
+Route::view('/', 'mymar/app');
+Route::post('/inquiry', 'App\Http\Controllers\MymarController@inquiry');
 
 // career
 Route::view('/career', 'career/home');

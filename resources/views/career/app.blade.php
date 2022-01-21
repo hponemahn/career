@@ -46,8 +46,8 @@
     <!-- End Facebook Pixel Code -->
 
     <!-- Primary Meta Tags -->
-    <title>မိမိရဲ့ ကိုယ်ရည်ကိုယ်သွေးနှင့်ကိုက်ညီသော အကောင်းဆုံး အလုပ် ၅ မျိုး</title>
-    <meta name="title" content="မိမိရဲ့ ကိုယ်ရည်ကိုယ်သွေးနှင့်ကိုက်ညီသော အကောင်းဆုံး အလုပ် ၅ မျိုး">
+    <title>MyMar | မိမိရဲ့ ကိုယ်ရည်ကိုယ်သွေးနှင့်ကိုက်ညီသော အကောင်းဆုံး အလုပ် ၅ မျိုး</title>
+    <meta name="title" content="MyMar | မိမိရဲ့ ကိုယ်ရည်ကိုယ်သွေးနှင့်ကိုက်ညီသော အကောင်းဆုံး အလုပ် ၅ မျိုး">
     <meta name="description"
         content="မိမိရဲ့ ပင်ကိုစရိုက်၊ ပင်ကို အရည်အသွေးအပေါ်မူတည်ပြီး မိမိနဲ့ သင့်တော်ကိုက်ညီမယ့် အလုပ်အကိုင် (၅) မျိုးကို အကြံပြု ဖော်ပြပေးသွားမှာ ဖြစ်ပါတယ်">
 
@@ -55,23 +55,25 @@
         content="mymar, mymar digital, mymar tech, career advice, အလုပ်အကိုင်, ကိုယ်ရည်ကိုယ်သွေးနှင့်ကိုက်ညီသောအကောင်းဆုံးအလုပ်(၅)မျိုး, ပင်ကိုစရိုက်၊">
     <meta name="robots" content="index, follow">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="author" content="Phone Mhan">
+    <meta name="author" content="MyMar">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://mymar.digital/career">
-    <meta property="og:title" content="မိမိရဲ့ ကိုယ်ရည်ကိုယ်သွေးနှင့်ကိုက်ညီသော အကောင်းဆုံး အလုပ် ၅ မျိုး">
+    <meta property="og:title" content="MyMar | မိမိရဲ့ ကိုယ်ရည်ကိုယ်သွေးနှင့်ကိုက်ညီသော အကောင်းဆုံး အလုပ် ၅ မျိုး">
     <meta property="og:description"
         content="မိမိရဲ့ ပင်ကိုစရိုက်၊ ပင်ကို အရည်အသွေးအပေါ်မူတည်ပြီး မိမိနဲ့ သင့်တော်ကိုက်ညီမယ့် အလုပ်အကိုင် (၅) မျိုးကို အကြံပြု ဖော်ပြပေးသွားမှာ ဖြစ်ပါတယ်">
-    <meta property="og:image" content="https://mymar.digital/images/mymar_career_meta_preview.png">
+    {{-- <meta property="og:image" content="https://mymar.digital/images/mymar_career_meta_preview.png"> --}}
+    <meta property="og:image" content="{{ asset('images/preview-meta.jpg') }}">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://mymar.digital/career">
-    <meta property="twitter:title" content="မိမိရဲ့ ကိုယ်ရည်ကိုယ်သွေးနှင့်ကိုက်ညီသော အကောင်းဆုံး အလုပ် ၅ မျိုး">
+    <meta property="twitter:title" content="MyMar | မိမိရဲ့ ကိုယ်ရည်ကိုယ်သွေးနှင့်ကိုက်ညီသော အကောင်းဆုံး အလုပ် ၅ မျိုး">
     <meta property="twitter:description"
         content="မိမိရဲ့ ပင်ကိုစရိုက်၊ ပင်ကို အရည်အသွေးအပေါ်မူတည်ပြီး မိမိနဲ့ သင့်တော်ကိုက်ညီမယ့် အလုပ်အကိုင် (၅) မျိုးကို အကြံပြု ဖော်ပြပေးသွားမှာ ဖြစ်ပါတယ်">
-    <meta property="twitter:image" content="https://mymar.digital/images/mymar_career_meta_preview.png">
+    {{-- <meta property="twitter:image" content="https://mymar.digital/images/mymar_career_meta_preview.png"> --}}
+    <meta property="twitter:image" content="{{ asset('images/preview-meta.jpg') }}">
 
     <!-- Stylesheets
 	============================================= -->
@@ -158,7 +160,7 @@
 
             <div id="header-wrap">
                 <div class="container">
-                    <a href="{{ url('/') }}"><img src="{{ asset('images/myMarLogo.png') }}" alt="MyMar Logo"
+                    <a href="{{ url('/career') }}"><img src="{{ asset('images/myMarLogo.png') }}" alt="MyMar Logo"
                             height="100"></a>
                 </div>
 
@@ -199,7 +201,7 @@
                     <i class="icon-facebook"></i>
                     <i class="icon-facebook"></i>
                 </a>
-                <a href="tel:09407709504" target="_blank"
+                <a href="tel:09777425147" target="_blank"
                     class="social-icon inline-block si-small si-borderless si-rounded si-twitter">
                     <i class="icon-phone"></i>
                     <i class="icon-phone"></i>
