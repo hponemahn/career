@@ -46,6 +46,7 @@
         content="MyMar design and build bespoke quality websites, tailored to your business, that drive profits for your organisation.">
     <meta property="twitter:image" content="{{ asset('images/preview-meta.jpg') }}">
 
+    <link rel="shortcut icon" href="{{ asset('images/favicon-32x32.png') }}" />
 
     <!-- Stylesheets
  ============================================= -->
