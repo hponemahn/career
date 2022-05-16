@@ -27,6 +27,10 @@ Route::post('/career/result', 'App\Http\Controllers\CareerController@result');
 Route::post('/career/payment', 'App\Http\Controllers\CareerController@payment');
 Route::post('/career/done', 'App\Http\Controllers\CareerController@done');
 
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
+
 Route::any('{query}', 
   function() { return redirect('/career'); })
   ->where('query', '.*');
