@@ -36,7 +36,7 @@
     <meta property="og:title" content="MyMar | Website & Mobile App Development Services">
     <meta property="og:description"
         content="MyMar design and build bespoke quality websites, tailored to your business, that drive profits for your organisation.">
-    <meta property="og:image" content="{{ asset('images/preview-meta.jpg') }}">
+    <meta property="og:image" content="{{ asset('images/mymar_cover_web_services.png') }}">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
@@ -44,7 +44,7 @@
     <meta property="twitter:title" content="MyMar | Website & Mobile App Development Services">
     <meta property="twitter:description"
         content="MyMar design and build bespoke quality websites, tailored to your business, that drive profits for your organisation.">
-    <meta property="twitter:image" content="{{ asset('images/preview-meta.jpg') }}">
+    <meta property="twitter:image" content="{{ asset('images/mymar_cover_web_services.png') }}">
 
     <link rel="shortcut icon" href="{{ asset('images/favicon-32x32.png') }}" />
 

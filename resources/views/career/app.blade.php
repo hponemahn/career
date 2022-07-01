@@ -64,7 +64,7 @@
     <meta property="og:description"
         content="မိမိရဲ့ ပင်ကိုစရိုက်၊ ပင်ကို အရည်အသွေးအပေါ်မူတည်ပြီး မိမိနဲ့ သင့်တော်ကိုက်ညီမယ့် အလုပ်အကိုင် (၅) မျိုးကို အကြံပြု ဖော်ပြပေးသွားမှာ ဖြစ်ပါတယ်">
     {{-- <meta property="og:image" content="https://mymar.digital/images/mymar_career_meta_preview.png"> --}}
-    <meta property="og:image" content="{{ asset('images/preview-meta.jpg') }}">
+    <meta property="og:image" content="{{ asset('images/mymar_cover_career_advice.png') }}">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
@@ -73,7 +73,7 @@
     <meta property="twitter:description"
         content="မိမိရဲ့ ပင်ကိုစရိုက်၊ ပင်ကို အရည်အသွေးအပေါ်မူတည်ပြီး မိမိနဲ့ သင့်တော်ကိုက်ညီမယ့် အလုပ်အကိုင် (၅) မျိုးကို အကြံပြု ဖော်ပြပေးသွားမှာ ဖြစ်ပါတယ်">
     {{-- <meta property="twitter:image" content="https://mymar.digital/images/mymar_career_meta_preview.png"> --}}
-    <meta property="twitter:image" content="{{ asset('images/preview-meta.jpg') }}">
+    <meta property="twitter:image" content="{{ asset('images/mymar_cover_career_advice.png') }}">
 
     <!-- Stylesheets
 	============================================= -->
