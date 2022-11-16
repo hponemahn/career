@@ -50,7 +50,7 @@
 
     <!-- Stylesheets
  ============================================= -->
-    <link href="http://fonts.googleapis.com/css?family=Heebo:300,400,500,700,900" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Heebo:300,400,500,700,900" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="{{ asset('asset/mymar/bootstrap.css') }}" type="text/css" />
     <link rel="stylesheet" href="{{ asset('asset/mymar/style.css') }}" type="text/css" />
 
@@ -80,7 +80,7 @@
     </style>
 
     <!-- Meta Pixel Code -->
-<script>
+{{-- <script>
     !function(f,b,e,v,n,t,s)
     {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
     n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -94,7 +94,7 @@
     </script>
     <noscript><img height="1" width="1" style="display:none"
     src="https://www.facebook.com/tr?id=859579081470632&ev=PageView&noscript=1"
-    /></noscript>
+    /></noscript> --}}
     <!-- End Meta Pixel Code -->
 
 </head>
@@ -337,7 +337,7 @@
                             </div>
 
                             <div class="col-lg-6 h-translatey-3 tf-ts">
-                                <a href="http://myintthukhanadilogistics.com/" class="portfolio-item" target="_blank">
+                                <a href="https://myintthukhanadilogistics.com/" class="portfolio-item" target="_blank">
                                     <div class="portfolio-image">
                                         <img src="demos/freelancer/images/works/3.jpg" alt="Portfoio Item">
                                         <div class="bg-overlay">
