@@ -193,10 +193,10 @@
         <footer class="py-4 flex-shrink-0" style="background: #F5F5F5; padding-bottom: 0 !important;">
             <div class="container text-center">
                 {{-- <a href="https://bootstrapious.com/snippets" class="text-muted">Bootstrap snippet by Bootstrapious</a> --}}
-                © MyMar. 2020. All Rights Reserved.
+                © Hpone Mahn. 2022. All Rights Reserved.
                 <br>
                 <br>
-                <a href="https://www.facebook.com/mymartech" target="_blank"
+                <a href="https://www.facebook.com/hponemahn" target="_blank"
                     class="social-icon inline-block si-small si-borderless si-rounded si-facebook">
                     <i class="icon-facebook"></i>
                     <i class="icon-facebook"></i>
