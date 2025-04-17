@@ -24,8 +24,7 @@
     <meta name="description"
         content="MyMar design and build bespoke quality websites, tailored to your business, that drive profits for your organisation.">
 
-    <meta name="keywords"
-        content="mymar, mymar digital, mymar tech, website, mobile app">
+    <meta name="keywords" content="mymar, mymar digital, mymar tech, website, mobile app">
     <meta name="robots" content="index, follow">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="author" content="MyMar">
@@ -76,11 +75,10 @@
                 margin-top: 70px;
             }
         }
-
     </style>
 
     <!-- Meta Pixel Code -->
-{{-- <script>
+    {{-- <script>
     !function(f,b,e,v,n,t,s)
     {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
     n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -151,9 +149,8 @@
                                 <li class="menu-item"><a class="menu-link" href="#works">
                                         <div>Works</div>
                                     </a></li>
-                                <li class="menu-item"><a class="menu-link" href="#footer"
-                                        data-scrollto="#footer" data-easing="easeInOutExpo" data-speed="1250"
-                                        data-offset="70">
+                                <li class="menu-item"><a class="menu-link" href="#footer" data-scrollto="#footer"
+                                        data-easing="easeInOutExpo" data-speed="1250" data-offset="70">
                                         <div>Contact</div>
                                     </a></li>
                             </ul>
@@ -175,10 +172,11 @@
                         <div class="emphasis-title mb-2">
                             <h4 class="text-uppercase ls3 fw-bolder mb-0">We Create</h4>
                             <h1>
-                                <span id="oc-images" class="owl-carousel image-carousel carousel-widget" data-items="1"
-                                    data-margin="0" data-autoplay="3000" data-loop="true" data-nav="false"
-                                    data-pagi="false" data-animate-in="fadeInUp">
-                                    <div class="oc-item gradient-text gradient-red-yellow text-uppercase">Websites</div>
+                                <span id="oc-images" class="owl-carousel image-carousel carousel-widget"
+                                    data-items="1" data-margin="0" data-autoplay="3000" data-loop="true"
+                                    data-nav="false" data-pagi="false" data-animate-in="fadeInUp">
+                                    <div class="oc-item gradient-text gradient-red-yellow text-uppercase">Websites
+                                    </div>
                                     <div class="oc-item gradient-text gradient-red-yellow text-uppercase">Mobile Apps
                                     </div>
                                 </span>
@@ -223,7 +221,8 @@
                                 <div>
                                     <h3 class="fw-bolder h1 mb-4">Why Work With <span
                                             class="gradient-text gradient-horizon">US</span></h3>
-                                    <p class="mb-5 lead text-black-50 fw-extralight">We design and build bespoke quality
+                                    <p class="mb-5 lead text-black-50 fw-extralight">We design and build bespoke
+                                        quality
                                         websites, tailored to your business, that drive profits for your organisation.
                                     </p>
                                 </div>
@@ -251,16 +250,16 @@
                     <div class="row col-mb-30 mt-5">
                         <div class="col-md-4">
                             <div class="d-flex align-items-center justify-content-center">
-                                <div class="counter counter-xlarge text-dark fw-bolder"><span data-from="1" data-to="7"
-                                        data-refresh-interval="2" data-speed="600"></span></div>
+                                <div class="counter counter-xlarge text-dark fw-bolder"><span data-from="1"
+                                        data-to="7" data-refresh-interval="2" data-speed="600"></span></div>
                                 <span>+ Years Of<br>Experience.</span>
                             </div>
                         </div>
 
                         <div class="col-md-4">
                             <div class="d-flex align-items-center justify-content-center">
-                                <div class="counter counter-xlarge text-dark fw-bolder"><span data-from="4" data-to="83"
-                                        data-refresh-interval="50" data-speed="1500"></span></div>
+                                <div class="counter counter-xlarge text-dark fw-bolder"><span data-from="4"
+                                        data-to="83" data-refresh-interval="50" data-speed="1500"></span></div>
                                 <span>% of Works <br>Completed.</span>
                             </div>
                         </div>
@@ -337,7 +336,8 @@
                             </div>
 
                             <div class="col-lg-6 h-translatey-3 tf-ts">
-                                <a href="https://myintthukhanadilogistics.com/" class="portfolio-item" target="_blank">
+                                <a href="https://myintthukhanadilogistics.com/" class="portfolio-item"
+                                    target="_blank">
                                     <div class="portfolio-image">
                                         <img src="demos/freelancer/images/works/3.jpg" alt="Portfoio Item">
                                         <div class="bg-overlay">
@@ -421,8 +421,8 @@
                                     <div class="mt-5"></div>
                                     <div class="mt-auto">
                                         <div class="card-body">
-                                            <img src="demos/freelancer/images/icons/wp.png" height="50" alt="Image"
-                                                class="mb-4">
+                                            <img src="demos/freelancer/images/icons/wp.png" height="50"
+                                                alt="Image" class="mb-4">
                                             <h3 class="card-title fw-bolder">Mobile App Development</h3>
                                             <p class="card-text mb-0 mt-2 fw-light">We turn ideas into great digital
                                                 products, and develop apps that people love to use. We can help your
@@ -441,8 +441,8 @@
                                             <div class="d-flex align-items-center mb-4">
                                                 {{-- <img src="demos/freelancer/images/icons/sketch.svg" height="50" alt="Image">
 												<img src="demos/freelancer/images/icons/xd.png" height="50" alt="Image" class="ms-3"> --}}
-                                                <img src="demos/freelancer/images/icons/ecommerce-icon.png" height="50"
-                                                    alt="Image">
+                                                <img src="demos/freelancer/images/icons/ecommerce-icon.png"
+                                                    height="50" alt="Image">
                                             </div>
                                             <h3 class="card-title fw-bolder">E-Commerce Development</h3>
                                             <p class="card-text mb-0 mt-2 fw-light">We specialize in scalable
@@ -596,8 +596,8 @@
                                 <h3 class="h1 mb-5">Let's Collaborate</h3>
                                 <span class="text-black-50">We’d love to hear about your next project and show you how
                                     we can help.</span>
-                                <a href="tel:09777425147" class="h4 text-dark mt-5 mb-4 d-block"><u>09-777425147</u> <i
-                                        class="icon-line-arrow-right position-relative ms-2" style="top: 3px"></i></a>
+                                <a href="tel:09777425147" class="h4 text-dark mt-5 mb-4 d-block"><u>09-777425147</u>
+                                    <i class="icon-line-arrow-right position-relative ms-2" style="top: 3px"></i></a>
                                 <div>
                                     <a href="https://www.facebook.com/mymartech"
                                         class="social-icon si-small si-colored si-facebook" target="_blank">
@@ -644,12 +644,11 @@
                                         <label>Your Phone Number Please:</label>
                                         <input type="text" name="phone" id="phone"
                                             class="form-control border-form-control phone required" value=""
-                                            oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');">
+                                            oninput="this.value = this.value.replace(/[^0-9+.]/g, '').replace(/(\..*?)\..*/g, '$1');">
                                     </div>
                                     <div class="col-12 form-group mb-4">
                                         <label>Tell more about your Project:</label>
-                                        <textarea name="message" id="message" class="form-control border-form-control"
-                                            cols="10" rows="3"></textarea>
+                                        <textarea name="message" id="message" class="form-control border-form-control" cols="10" rows="3"></textarea>
                                     </div>
                                     <div class="col-12 d-none">
                                         <input type="text" id="botcheck" name="botcheck" value="" />
@@ -722,8 +721,24 @@
 
         $("#landing-enquiry").submit(function(e) {
 
-            if ($('.phone').val().length >= 8 && $('.phone').val().length <= 11) {
+            $(".message-alert").html('<div></div>');
 
+            if ($('.phone').val().length < 1) {
+
+                console.log("Phone number is invalid");
+
+                $(".message-alert").html(
+                    '<div class="alert alert-danger" style="color: #721c24;">Your phone number is invalid.</div>'
+                );
+
+                return false;
+            } else if ($('#message').val().length < 1) {
+                $(".message-alert").html(
+                    '<div class="alert alert-danger" style="color: #721c24;">Please tell about your project.</div>'
+                );
+
+                return false;
+            } else {
                 var form = $(this);
                 // var url = form.attr('action');
 
@@ -733,6 +748,8 @@
                     data: form.serialize(), // serializes the form's elements.
                     success: function(data) {
 
+                        console.log(data);
+
                         $(".message-alert").html(
                             '<div class="alert alert-info" style="background-color: #f26522;"><strong>Success!</strong> Your message has been sent successfully.</div>'
                         );
@@ -741,14 +758,7 @@
                     }
                 });
 
-                e.preventDefault(); // avoid to execute the actual submit of the form.
-            } else {
-
-                $(".message-alert").html(
-                    '<div class="alert alert-danger" style="color: #721c24;">Your phone number is invalid.</div>'
-                );
-
-                return false;
+                e.preventDefault();
             }
         });
     </script>
