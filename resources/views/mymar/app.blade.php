@@ -124,9 +124,9 @@
                             </a>
                         </div><!-- #logo end -->
 
-                        <div class="header-misc">
+                        {{-- <div class="header-misc">
                             <a href="tel:09777425147" class="button button-border rounded-pill">09-777425147</a>
-                        </div>
+                        </div> --}}
 
                         <div id="primary-menu-trigger">
                             <svg class="svg-trigger" viewBox="0 0 100 100">
@@ -187,7 +187,7 @@
        <span class="text-uppercase fw-bold ms-3">SemiColonWeb</span>
       </div> -->
                         <div class="mx-auto" style="max-width: 600px">
-                            <p class="lead fw-normal text-dark mb-5">Our team of expert developers has over 7 years of
+                            <p class="lead fw-normal text-dark mb-5">Our team of expert developers has over 10 years of
                                 experience in developing websites & strategies that help you meet your organisation’s
                                 goals. Whether that’s finding more customers, generating more leads, increasing traffic
                                 & awareness, or selling more products; whatever the objective, we will deliver a return
@@ -251,7 +251,7 @@
                         <div class="col-md-4">
                             <div class="d-flex align-items-center justify-content-center">
                                 <div class="counter counter-xlarge text-dark fw-bolder"><span data-from="1"
-                                        data-to="7" data-refresh-interval="2" data-speed="600"></span></div>
+                                        data-to="10" data-refresh-interval="2" data-speed="600"></span></div>
                                 <span>+ Years Of<br>Experience.</span>
                             </div>
                         </div>
@@ -282,7 +282,7 @@
                         <div class="row align-items-end justify-content-between mb-5">
                             <div class="col-lg-5 offset-lg-1">
                                 <div>
-                                    <h3 class="fw-bolder h1 mb-4">Some of Our Works</h3>
+                                    <h3 class="fw-bolder h1 mb-4">Our Latest Works</h3>
                                     <p class="lead mb-0">We pride ourselves on delivering high-quality products.
                                     </p>
                                 </div>
@@ -294,7 +294,7 @@
 
                         <div class="row justify-content-center col-mb-50">
                             <div class="col-lg-6 h-translatey-3 tf-ts">
-                                <a href="{{ url('/career') }}" class="portfolio-item" target="_blank">
+                                {{-- <a href="{{ url('/career') }}" class="portfolio-item" target="_blank"> --}}
                                     <div class="portfolio-image">
                                         <img src="demos/freelancer/images/works/1.jpg" alt="Portfoio Item">
                                         <div class="bg-overlay">
@@ -304,10 +304,10 @@
                                                 <h5>MyMar</h5>
                                             </div>
                                             <div class="bg-overlay-content align-items-start justify-content-end p-4">
-                                                <div class="overlay-trigger-icon bg-dark text-white"
+                                                {{-- <div class="overlay-trigger-icon bg-dark text-white"
                                                     data-hover-animate="fadeInDownSmall"
                                                     data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i
-                                                        class="icon-line-link"></i></div>
+                                                        class="icon-line-link"></i></div> --}}
                                             </div>
                                         </div>
                                     </div>
@@ -315,20 +315,20 @@
                             </div>
 
                             <div class="col-lg-6 h-translatey-3 tf-ts">
-                                <a href="https://www.chid.com.mm/" class="portfolio-item" target="_blank">
+                                {{-- <a href="https://www.chid.com.mm/" class="portfolio-item" target="_blank"> --}}
                                     <div class="portfolio-image">
                                         <img src="demos/freelancer/images/works/2.jpg" alt="Portfoio Item">
                                         <div class="bg-overlay">
                                             <div
                                                 class="bg-overlay-content align-items-start justify-content-start flex-column px-5 py-4">
-                                                <h3 class="mb-0 mt-1">Banking</h3>
-                                                <h5>CHID Bank</h5>
+                                                <h3 class="mb-0 mt-1">NGO</h3>
+                                                <h5>Myanmar Biodiversity Fund</h5>
                                             </div>
                                             <div class="bg-overlay-content align-items-start justify-content-end p-4">
-                                                <div class="overlay-trigger-icon bg-dark text-white"
+                                                {{-- <div class="overlay-trigger-icon bg-dark text-white"
                                                     data-hover-animate="fadeInDownSmall"
                                                     data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i
-                                                        class="icon-line-link"></i></div>
+                                                        class="icon-line-link"></i></div> --}}
                                             </div>
                                         </div>
                                     </div>
@@ -336,21 +336,21 @@
                             </div>
 
                             <div class="col-lg-6 h-translatey-3 tf-ts">
-                                <a href="https://myintthukhanadilogistics.com/" class="portfolio-item"
-                                    target="_blank">
+                                {{-- <a href="https://myintthukhanadilogistics.com/" class="portfolio-item"
+                                    target="_blank"> --}}
                                     <div class="portfolio-image">
                                         <img src="demos/freelancer/images/works/3.jpg" alt="Portfoio Item">
                                         <div class="bg-overlay">
                                             <div
                                                 class="bg-overlay-content align-items-start justify-content-start flex-column px-5 py-4">
-                                                <h3 class="mb-0 mt-1">Logistics</h3>
-                                                <h5>Myintthukhanadi Co.,Ltd</h5>
+                                                <h3 class="mb-0 mt-1">Money Transfter</h3>
+                                                <h5>Hlwal Mal</h5>
                                             </div>
                                             <div class="bg-overlay-content align-items-start justify-content-end p-4">
-                                                <div class="overlay-trigger-icon bg-dark text-white"
+                                                {{-- <div class="overlay-trigger-icon bg-dark text-white"
                                                     data-hover-animate="fadeInDownSmall"
                                                     data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i
-                                                        class="icon-line-link"></i></div>
+                                                        class="icon-line-link"></i></div> --}}
                                             </div>
                                         </div>
                                     </div>
@@ -596,18 +596,28 @@
                                 <h3 class="h1 mb-5">Let's Collaborate</h3>
                                 <span class="text-black-50">We’d love to hear about your next project and show you how
                                     we can help.</span>
-                                <a href="tel:09777425147" class="h4 text-dark mt-5 mb-4 d-block"><u>09-777425147</u>
-                                    <i class="icon-line-arrow-right position-relative ms-2" style="top: 3px"></i></a>
-                                <div>
+                                {{-- <a href="tel:09777425147" class="h4 text-dark mt-5 mb-4 d-block"><u>09-777425147</u>
+                                    <i class="icon-line-arrow-right position-relative ms-2" style="top: 3px"></i></a> --}}
+                                <div class="mt-5 mb-4">
                                     <a href="https://www.facebook.com/mymartech"
                                         class="social-icon si-small si-colored si-facebook" target="_blank">
                                         <i class="icon-facebook"></i>
                                         <i class="icon-facebook"></i>
                                     </a>
-                                    <a href="mailto:hponemahn@gmail.com"
+                                    <a href="mailto:mymar007@gmail.com"
                                         class="social-icon si-small si-colored si-instagram" target="_blank">
                                         <i class="icon-mail"></i>
                                         <i class="icon-mail"></i>
+                                    </a>
+                                    <a href="https://wa.me/66635107291"
+                                        class="social-icon si-small si-colored si-whatsapp" target="_blank">
+                                        <i class="icon-whatsapp"></i>
+                                        <i class="icon-whatsapp"></i>
+                                    </a>
+                                    <a href="viber://chat?number=%2B959777425147"
+                                        class="social-icon si-small si-colored si-flattr" target="_blank">
+                                        <i class="icon-viber"></i>
+                                        <i class="icon-viber"></i>
                                     </a>
                                     {{-- <a href="http://youtube.com/semicolonweb" class="social-icon si-small si-colored si-youtube" target="_blank">
 										<i class="icon-youtube"></i>
